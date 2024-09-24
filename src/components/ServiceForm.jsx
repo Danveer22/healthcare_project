@@ -17,7 +17,6 @@ const StyledForm = styled.form`
   @media (max-width: 400px) {
     padding: 1rem;
     width: 80%;
-    background-color: green;
     max-width: 100%;
   }
 `;
