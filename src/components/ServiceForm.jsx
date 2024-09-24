@@ -14,11 +14,10 @@ const StyledForm = styled.form`
   max-width: 800px;
   margin: 3rem auto;
 
-  @media (max-width: 375px) {
+  @media (max-width: 400px) {
     padding: 1rem;
+    background-color: green;
     max-width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
   }
 `;
 
@@ -26,7 +25,7 @@ const StyledHeading = styled.h1`
   color: #333;
   margin-bottom: 1rem;
   font-size: 2.5rem;
-  @media (max-width: 375px) {
+  @media (max-width: 400px) {
     font-size: 1.5rem;
   }
 `;
@@ -49,7 +48,7 @@ const StyledInput = styled.input`
     border-color: #007bff;
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
   }
-  @media (max-width: 375px) {
+  @media (max-width: 400px) {
     font-size: 1rem;
     padding: 0.5rem;
   }
@@ -68,7 +67,7 @@ const StyledButton = styled.button`
   &:hover {
     background-color: #0056b3;
   }
-  @media (max-width: 375px) {
+  @media (max-width: 400px) {
     font-size: 1rem;
     padding: 0.5rem 1rem;
   }
