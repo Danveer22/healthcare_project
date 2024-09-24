@@ -83,6 +83,14 @@ function ServiceItem({ service, updateService, deleteService }) {
   };
 
   const handleSave = () => {
+    if (
+      !editedService.name ||
+      !editedService.description ||
+      !editedService.price
+    ) {
+      alert("All fields must be filled out!");
+      return;
+    }
     updateService(editedService);
     setIsEditing(false);
   };
@@ -121,7 +129,7 @@ function ServiceItem({ service, updateService, deleteService }) {
         <>
           <h3>{service.name}</h3>
           <p>{service.description}</p>
-          <p>${service.price}</p>
+          <p>₹{service.price}</p>
           <div>
             <button onClick={() => setIsEditing(true)}>Edit</button>
             <button onClick={() => deleteService(service.id)}>Delete</button>

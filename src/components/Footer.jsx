@@ -31,7 +31,7 @@ function Footer() {
   return (
     <StyledFooter>
       <FooterText>
-        &copy; {new Date().getFullYear()} Health Care Service. All rights
+        &copy; {new Date().getFullYear()} Health Care Services. All rights
         reserved.
       </FooterText>
     </StyledFooter>
