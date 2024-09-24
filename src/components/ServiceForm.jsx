@@ -16,6 +16,7 @@ const StyledForm = styled.form`
 
   @media (max-width: 400px) {
     padding: 1rem;
+    width: 80%;
     background-color: green;
     max-width: 100%;
   }
@@ -50,7 +51,7 @@ const StyledInput = styled.input`
   }
   @media (max-width: 400px) {
     font-size: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
   }
 `;
 

@@ -54,7 +54,7 @@ const StyledServiceItem = styled.div`
     width: 100%;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 400px) {
     h3 {
       font-size: 1.4rem;
     }
