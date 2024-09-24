@@ -52,7 +52,7 @@ A simple React application for managing healthcare services, including adding, e
 
 ## Deployment
 
-You can view the live application [here](https://app.netlify.com/sites/health-care-shine/overview).
+You can view the live application [here](https://health-care-shine.netlify.app/).
 
 ## License
 
