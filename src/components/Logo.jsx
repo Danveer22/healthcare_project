@@ -10,7 +10,7 @@ const StyledLogo = styled.h1`
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 
-  @media (max-width: 375px) {
+  @media (max-width: 400px) {
     font-size: 2.5rem;
     padding: 15px;
   }

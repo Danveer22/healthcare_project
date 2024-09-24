@@ -19,6 +19,7 @@ const StyledServiceList = styled.div`
     margin-bottom: 2rem;
   }
   @media (max-width: 400px) {
+    width: 40rem;
     padding: 0.5rem;
 
     h2 {
